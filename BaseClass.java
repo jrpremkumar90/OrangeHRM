@@ -41,7 +41,6 @@ public class BaseClass {
 		htmlReporter = new ExtentHtmlReporter("Extentreport.html");
 		reports.attachReporter(htmlReporter);
 		PropertyConfigurator.configure("log4j.properties");
-		//BasicConfigurator.configure();
 		logger.info("OrangeHRM has begins");
 		logger.info("Loading the property file");
 		readpropertyfile();
